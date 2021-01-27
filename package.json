@@ -1,10 +1,10 @@
 {
+  "TODO": "Update this file",
   "name": "imba-electron-hello-world",
   "description": "Imba Electron Hello World",
   "keywords": [
     "imba",
-    "electron",
-    "sass"
+    "electron"
   ],
   "author": "Tomasz Wegrzanowski",
   "version": "1.0.0",
@@ -36,10 +36,6 @@
     "webpack-dev-server": "^3.7.1"
   },
   "devDependencies": {
-    "electron": "^7.2.4",
-    "node-sass": "^4.13.1",
-    "sass-loader": "^7.1.0",
-    "webpack": "^4.26.0",
-    "webpack-cli": "^3.1.2"
+    "electron": "^7.2.4"
   }
 }

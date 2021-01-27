@@ -8,18 +8,18 @@ module.exports = {
         loader: 'imba/loader',
       },
       {
-        test: /\.scss$/,
+        test: /\.css$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
-          use: ['css-loader', 'sass-loader']
+          use: ['css-loader']
         })
       }
     ],
   },
   resolve: {
-    extensions: [".imba", ".js", ".json", ".scss"]
+    extensions: [".imba", ".js", ".json"]
   },
-  entry: ["./src/app.imba", "./src/app.scss"],
+  entry: ["./src/app.imba"],
   output: {  path: __dirname + '/dist', filename: "app.js" },
   plugins: [
     new ExtractTextPlugin('app.css')
